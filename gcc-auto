@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -d "compiled-stuff" ]; then
+  true
+else
+  mkdir -p "compiled-stuff";
+fi
+
+gcc "$1" -o "./compiled-stuff/${1%.*}" && "./compiled-stuff/${1%.*}"
