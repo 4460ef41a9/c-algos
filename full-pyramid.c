@@ -1,18 +1,5 @@
 #include <stdio.h>
 
-// int number(int a){
-//   switch (a){
-//         case 1:
-//         return 1;
-//         case 3:
-//         return 3;
-//         case(5):
-//         return 5;
-//         case(7):
-//         return 7;
-//       }
-// }
-
 int main() {
     int n, m;
     printf("Enter the number of rows: ");
